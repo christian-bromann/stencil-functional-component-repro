@@ -1,0 +1,21 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		"baseUrl": "src",
+		"moduleResolution": "node",
+		"module": "esnext",
+		"target": "es2020",
+		"lib": [
+			"es2020",
+			"dom",
+			"dom.iterable"
+		],
+		"typeRoots": ["./node_modules/@types/"],
+		"experimentalDecorators": true,
+		"jsxFactory": "h",
+		"jsxFragmentFactory": "Fragment",
+		"resolveJsonModule": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true
+	}
+}

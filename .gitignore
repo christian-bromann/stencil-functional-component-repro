@@ -1,0 +1,7 @@
+dist/
+www/
+.stencil/
+node_modules/
+$RECYCLE.BIN/
+.DS_Store
+.env

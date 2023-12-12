@@ -1,0 +1,11 @@
+{
+  "name": "stencil-bug",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "stencil build"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.8.2"
+  }
+}
