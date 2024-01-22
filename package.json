@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "build": "stencil build"
+    "build": "stencil build --docs",
+    "dev": "stencil build --docs --dev --watch --serve"
   },
   "devDependencies": {
-    "@stencil/core": "^4.8.2"
+    "@stencil/core": "^4.11.0",
+    "@stencil/sass": "3.0.8"
   }
 }
