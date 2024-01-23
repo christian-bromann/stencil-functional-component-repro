@@ -9,7 +9,7 @@ import SvgHelpDirectImport from './help';
 export class MyComponent {
     render() {
         const IconSVG = Icons['help'];
-        console.log(IconSVG, SvgHelpDirectImport);
+        console.log(IconSVG, /*SvgHelpDirectImport*/);
         
         return (
             <div>
