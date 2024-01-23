@@ -6,32 +6,32 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
+    interface MyCmp {
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLMyCmpElement extends Components.MyCmp, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLMyCmpElement: {
+        prototype: HTMLMyCmpElement;
+        new (): HTMLMyCmpElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "my-cmp": HTMLMyCmpElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
+    interface MyCmp {
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "my-cmp": MyCmp;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "my-cmp": LocalJSX.MyCmp & JSXBase.HTMLAttributes<HTMLMyCmpElement>;
         }
     }
 }

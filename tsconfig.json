@@ -13,6 +13,7 @@
 		"typeRoots": ["./node_modules/@types/"],
 		"experimentalDecorators": true,
 		"jsxFactory": "h",
+		"jsx": "react",
 		"jsxFragmentFactory": "Fragment",
 		"resolveJsonModule": true,
 		"noImplicitAny": true,

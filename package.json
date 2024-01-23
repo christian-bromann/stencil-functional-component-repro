@@ -7,7 +7,6 @@
     "dev": "stencil build --docs --dev --watch --serve"
   },
   "devDependencies": {
-    "@stencil/core": "^4.11.0",
-    "@stencil/sass": "3.0.8"
+    "@stencil/core": "^4.11.0"
   }
 }
